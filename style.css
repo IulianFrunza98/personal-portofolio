@@ -277,8 +277,17 @@ ul li a:hover {
 
 @media(max-width: 600px) {
 
-        .about-description {
+    .about-description {
         padding: 10px;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        gap: 60px;
     }
 
     .project-div img {
