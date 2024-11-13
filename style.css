@@ -277,6 +277,10 @@ ul li a:hover {
 
 @media(max-width: 600px) {
 
+        .about-description {
+        padding: 10px;
+    }
+
     .project-div img {
         width: 300px;
     }
