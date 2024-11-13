@@ -279,18 +279,17 @@ ul li a:hover {
 
     .project-div img {
         width: 300px;
-       }
+    }
 
-    #projects h1 {
-    text-align: center;
-}
+    #contact h1 {
+        width: max-content;
+        font-size: 40px;
+        text-align: center;
+    }
 
-        #contact h1 {
-    text-align: center;
-            width: 100%;
-            margin: 0;
-            
-}
+    .contact-container .email {
+        width: max-content;
+    }
 
 }
 
