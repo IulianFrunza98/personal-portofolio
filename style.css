@@ -288,6 +288,8 @@ ul li a:hover {
         #contact h1 {
     text-align: center;
             width: 100%;
+            margin: 0;
+            
 }
 
 }
