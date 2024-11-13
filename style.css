@@ -275,3 +275,11 @@ ul li a:hover {
 
 }
 
+@media(max-width: 600px) {
+
+    .project-div img {
+        width: 300px;
+       }
+
+}
+
