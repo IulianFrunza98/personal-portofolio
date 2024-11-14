@@ -12,8 +12,4 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active");
     })
 )
-var themeToggle = document.getElementById("sun-icon");
 
-themeToggle.onclick = function() {
-    document.body.classList.toggle("dark-mode");
-}
