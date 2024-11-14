@@ -7,16 +7,6 @@
     user-select: none;
 }
 
-:root {
-    --bg-primary-color: #fff;
-    --bg-secondary-color: #000;
-    --text-primary-color: #000;
-    --text-secondary-color: #fff;
-    --secondary-color: var(--secondary-color);
-    --section-margin: 50px 100px;
-    --section-padding: 0px;
-    --section-border-color: #000;
-}
 
 html {
     scroll-behavior: smooth;
@@ -28,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--text-primary-color);
+    color: #000;
     font-size: 20px;
 }
 
@@ -38,23 +28,6 @@ h1 {
 
 p {
     margin-top: 10px;
-}
-
-/* Theme Toggle */
-
-#sun-icon {
-    width: 30px;
-    cursor: pointer;
-    color: var(--text-primary-color)
-}
-
-.dark-mode {
-    --bg-primary-color: #000;
-    --bg-secondary-color: #fff;
-    --text-primary-color: #fff;
-    --section-margin: 0;
-    --section-padding: 20px;
-    --section-border-color: #fff;
 }
 
 /* Header */
@@ -73,20 +46,17 @@ p {
     background-color: #000;
 }
 
-header {
-    width: 100%;
-    position: sticky;
-    overflow: hidden;
-    top: 0;
-}
-
 nav {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--section-border-color);
-    background-color: var(--bg-primary-color);
+    border-bottom: 1px solid #000;
+    background-color: #f1f1f1;
+    width: 100%;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
 }
 
 .nav-branding {
@@ -109,8 +79,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: var(--bg-secondary-color);
-    color: var(--bg-primary-color);
+    background-color: #000;
+    color: #fff;
     padding: 10px;
     border-radius: 10px;
 }
@@ -121,11 +91,8 @@ ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: var(--section-margin);
-    background-color: var(--bg-primary-color);
-    color: var(--text-primary-color);
+    margin: 50px 100px;
     text-align: left;
-    padding: var(--section-padding);
 }
 
 .about-introduction .name {
@@ -141,22 +108,18 @@ ul li a:hover {
 /* Skills Section */
 
 #skills {
-    margin: var(--section-margin);
-    background-color: var(--bg-primary-color);
-    color: var(--text-primary-color);
-    padding: var(--section-padding);
+    margin: 50px 100px;
 }
 
 #skills h1 {
     text-align: center;
-    padding: var(--section-padding);
 }
 
 .skills-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: var(--section-margin);
+    margin: 50px 100px;
     text-align: center;
     flex-wrap: wrap;
     font-weight: 500;
@@ -179,10 +142,8 @@ ul li a:hover {
 /* Project Section */
 
 #projects {
-    margin: var(--section-margin);
+    margin: 50px 100px;
     text-align: center;
-    background-color: var(--bg-primary-color);
-    color: var(--text-primary-color);
 }
 
 #projects h1 {
@@ -211,10 +172,8 @@ ul li a:hover {
 /* Contact Section */
 
 #contact {
-    margin: var(--section-margin);
+    margin: 50px 100px;
     text-align: center;
-    background-color: var(--bg-primary-color);
-    color: var(--text-primary-color);
 }
 
 #contact h1 {
@@ -232,11 +191,12 @@ ul li a:hover {
 }
 
 .social-media {
-    margin-top: 50px;
+    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
+    text-align: center;
 }
 
 .social-media a {
@@ -357,4 +317,3 @@ ul li a:hover {
 
 
 }
-
